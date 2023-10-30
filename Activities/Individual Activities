@@ -1,0 +1,37 @@
+#1
+car_Brands = ["Toyota", "Honda", "Hyundai", "BMW", "Volkswagen"]
+
+car_Brands.append("Ferrari")
+car_Brands.append("Mazda")
+car_Brands.append("Suzuki")
+
+print(car_Brands)
+
+#2
+motor_Brands = ["Honda", "Kawasaki", "Yamaha", "Suzuki", "BMW"]
+motor_Brands.insert(3, "Ducati")
+del motor_Brands[5]
+
+print(motor_Brands)
+
+#3
+fruits=["Apple", "Mango", "Orange", "Banana", "Watermelon"]
+fruits[4] = "Cherry"
+
+print(fruits)
+
+#4
+animals=["Goat", "Horse", "Dog", "Cat", "Parrot"]
+animals.remove("Dog")
+
+print(animals)
+
+
+
+======================================
+OUTPUT
+======================================
+['Toyota', 'Honda', 'Hyundai', 'BMW', 'Volkswagen', 'Ferrari', 'Mazda', 'Suzuki']
+['Honda', 'Kawasaki', 'Yamaha', 'Ducati', 'Suzuki']
+['Apple', 'Mango', 'Orange', 'Banana', 'Cherry']
+['Goat', 'Horse', 'Cat', 'Parrot']
