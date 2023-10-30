@@ -1,0 +1,25 @@
+#September 5, 2023
+
+1. To check positive or negative number
+GET number
+IF number is greater than zero
+PRINT “Positive”
+ELSE
+PRINT “Negative”
+ENDIF
+2. To check odd or even number
+GET number
+IF number is divisible by 2 with no remainder
+PRINT “Even”
+ELSE
+PRINT “Odd”
+ENDIF
+3. To check greatest of three numbers
+READ a, b, and c
+IF a is greater than b and a is greater than c
+PRINT “a is greatest”
+IF b is greater than a and b is greater than c
+PRINT “b is greatest”
+IF c is greater than a and c is greater than b
+PRINT “c is greatest”
+ENDIF
